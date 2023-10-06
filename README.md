@@ -6,8 +6,13 @@ Sin embargo, se identificaron 8 variables con un alto porcentaje de valores falt
 
 Se llevó a cabo un estudio de la relación entre las variables seleccionadas y el objetivo ('Has detection'). Se encontró que las relaciones más fuertes se observaron en las variables 'AVProductsInstalled', 'AVProductStatesIdentifier' y 'EngineVersion'.
 
-![Analisis AVProductInstalled](/img/1.png){: .centrado}
-
+<table>
+  <tr>
+    <td><img src="/img/1.png" alt="Analisis AVProductInstalled"></td>
+    <td><img src="/img/2.png" alt="Analisis AVProductInstalled"></td>
+    <td><img src="/img/3.png" alt="Analisis AVProductInstalled"></td>
+  </tr>
+</table>
 
 Para abordar las variables categóricas, se aplicó la codificación 'One-Hot Encoding' (OHE).
 
@@ -22,8 +27,18 @@ La elección del umbral óptimo para poner en producción el modelo dependerá d
 
 Con un umbral de 0.1, el modelo captura el 100% de los ordenadores infectados (recall 1), pero su precisión es del 0.5, lo que significa que solo el 50% de las predicciones positivas son correctas. El problema es que clasifica el 100% de los ordenadores como infectados.
 
-
 Aumentar el umbral a 0.35 capturaría el 91% de los ordenadores infectados, con una precisión del 54%, lo que indicaría que el 84% de los ordenadores se considerarían infectados.
 
+<table align="center">
+  <tr align="center">
+    <td>Umbral 0.1</td>
+    <td>Umbral 0.35</td>
+  </tr>
 
-Este análisis sugiere que la elección del umbral debe basarse en los objetivos específicos y los costos asociados con los errores de clasificación.
+  <tr>
+    <td><img src="/img/4.png" alt="Analisis AVProductInstalled" width="350"></td>
+    <td><img src="/img/5.png" alt="Analisis AVProductInstalled" width="350"></td>
+  </tr>
+</table>
+
+La elección del umbral debe basarse en los objetivos específicos y los costos asociados con los errores de clasificación.

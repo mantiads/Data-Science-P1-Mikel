@@ -6,7 +6,7 @@ Sin embargo, se identificaron 8 variables con un alto porcentaje de valores falt
 
 Se llevó a cabo un estudio de la relación entre las variables seleccionadas y el objetivo ('Has detection'). Se encontró que las relaciones más fuertes se observaron en las variables 'AVProductsInstalled', 'AVProductStatesIdentifier' y 'EngineVersion'.
 
-![Analisis AVProductInstalled](/img/1.PNG){: .centrado}
+![Analisis AVProductInstalled](/img/1.png){: .centrado}
 
 
 Para abordar las variables categóricas, se aplicó la codificación 'One-Hot Encoding' (OHE).

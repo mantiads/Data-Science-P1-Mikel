@@ -1,3 +1,7 @@
+# <p align="center">Predicción de Malware (Modelo de Clasificación).</p>
+
+[Acceso a archivo Jupyter.](https://github.com/mantiads/Data-Science-P1-Mikel/blob/main/MLSup_Microsoft.ipynb)
+
 Este proyecto en colaboración entre Kaggle y Microsoft se enfoca en la predicción de malware desarrollado por Microsoft. La tarea principal consiste en desarrollar modelos de aprendizaje automático capaces de identificar y clasificar eficazmente el malware en sistemas informáticos, utilizando datos proporcionados por Microsoft sobre la configuración de los equipos.
 
 El conjunto de datos consta de 500,000 observaciones y 83 variables, incluyendo nuestra variable objetivo, 'Has detection'. Esta variable está perfectamente balanceada, con un 50% de observaciones en cada uno de sus valores posibles.
